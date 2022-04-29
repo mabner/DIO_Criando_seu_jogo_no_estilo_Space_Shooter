@@ -1,5 +1,10 @@
 const yourShip = document.querySelector('.player-shooter');
 const playArea = document.querySelector('#main-play-area');
+const aliensImg = [
+	'img/monster-1.png',
+	'img/monster-2.png',
+	'img/monster-3.png',
+];
 
 function flyShip(event) {
 	if (event.key === 'ArrowUp') {
