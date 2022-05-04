@@ -134,5 +134,9 @@ function checkLaserCollision(laser, alien) {
 	}
 }
 
+//starts the game
+function playGame() {
+	
+}
+
 window.addEventListener('keydown', flyShip);
-createAliens();
