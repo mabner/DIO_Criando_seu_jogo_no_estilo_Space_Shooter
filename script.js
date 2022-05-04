@@ -66,7 +66,7 @@ function createLaserElement() {
 function moveLaser(laser) {
 	let laserInterval = setInterval(() => {
 		let xPosition = parseInt(laser.style.left);
-		let aliens = document.querySelectorAll('alien');
+		let aliens = document.querySelectorAll('.alien');
 
 		aliens.forEach((alien) => {
 			// loop repeats for each iteration in the alien list
