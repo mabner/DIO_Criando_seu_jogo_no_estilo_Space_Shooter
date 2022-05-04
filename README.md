@@ -4,7 +4,7 @@ Nesse projeto, o desafio será criar um Space Shooter utilizando HTML, CSS e Jav
 
 ## TODO
 
-- [] Scoreboard
-- [] Lives
-- [] Shots fired
-- [] Aliens killed
+- [ ] Scoreboard
+- [ ] Lives
+- [ ] Shots fired
+- [ ] Aliens killed
