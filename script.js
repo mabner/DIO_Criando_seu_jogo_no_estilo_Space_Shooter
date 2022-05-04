@@ -161,4 +161,6 @@ function gameOver() {
 	});
 }
 
-window.addEventListener('keydown', flyShip);
+startButton.addEventListener('click', (event) => {
+	playGame();
+});
