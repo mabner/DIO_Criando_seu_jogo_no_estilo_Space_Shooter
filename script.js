@@ -5,6 +5,8 @@ const aliensImg = [
 	'img/monster-2.png',
 	'img/monster-3.png',
 ];
+const instructionsText = document.querySelector('.game-instructions');
+const startButton = document.querySelector('.start-button'); // variable content <div class="start-button">...</div>
 
 function flyShip(event) {
 	if (event.key === 'ArrowUp') {
@@ -136,7 +138,12 @@ function checkLaserCollision(laser, alien) {
 
 //starts the game
 function playGame() {
-	
+	startButton.style.display = 'none';
+	instructionsText.style.display = 'none';
+	window.addEventListener('keydown', flyShip);
+	alienInterval = setInterval(() => {
+		createAliens();
+	}, 2000);
 }
 
 window.addEventListener('keydown', flyShip);
